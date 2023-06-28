@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#resu{
+    background-color: white;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px;
+}
+
+.calc{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+h2{
+    color: white;
+}
+button{
+    background-color: rgb(31, 29, 29);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+border: 5px;
+height: 50px;
+width: 50px;
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(94, 90, 90);
+}
+#igual{
+    height: 106px;
+   width: 50px;
+}
+#zero{
+    width: 106px;
+    height: 50px;
+}

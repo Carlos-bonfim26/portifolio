@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 21, 46);
+    color: white;
+}
+main{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.altura, .peso, .calcular{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button{
+    padding: 10px;
+    font-size: 10px;
+    outline: none;
+    border: none;
+   border-radius: 8px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(99, 177, 99);
+}
+button:hover{
+background-color: rgb(125, 217, 125);
+}
+@media (max-width:500px){
+    body, input, button{
+        font-size: 15px;
+    }
+}

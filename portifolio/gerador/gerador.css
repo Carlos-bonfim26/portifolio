@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #030325;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    color: white;
+    background-color: #06063d;
+    padding: 30px 40px;
+min-width: 470px;
+border-radius: 10px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.399);
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.container h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.input-group{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-field label{
+    font-weight: bold;
+    margin-bottom: 5px;
+font-size: 18px;
+}
+.input-field input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+}
+.input-field input:focus{
+    outline: none;
+    border-bottom: 3px solid dodgerblue;
+}
+#generate{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    width: 100vw;
+    font-size: bold;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+}
+#result{
+    font-size: 50px;
+   
+    font-weight: 600;
+}
