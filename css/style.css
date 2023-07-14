@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #141434ef;
+    color: white;
+    
+}
+.text-blue{
+    color: dodgerblue;
+}
+/*CSS Header*/
+
+header, nav, .container, .navbar-nav, .navbar, .navbar-brand, .navbar-expand-lg, .bg-body-tertiary, #navbarNavDropdown, .navbar-collapse, .collapse {
+width: 100vw;
+padding: 0;
+margin: 0;
+    font-size: 25px;
+    color: white;
+    background-color: #040435;
+    height: 10vh;
+   
+}
+.nav-link, .nav-item, a{
+    margin-top: 10px;
+    color: white;
+    background-color: #040435;
+    margin-left: 10px;
+}
+.nav-link:hover, .nav-item:hover, a:hover{
+    color: dodgerblue;
+   
+}
+.dropdown-menu{
+    background-color: #07074b;
+    
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    color: dodgerblue;
+}
+
+
+
+.logotipo{
+    height:100px;
+    width:100px;
+}
+/*fim do css header*/
+
+/*primeira seção*/
+.container-sobre{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+    
+}
+.carlos{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+width: 40vw;
+height: 20vh;
+margin-left: 100px;
+
+
+}
+
+.container-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+.perfil{
+   
+  margin: 30px;
+    height: 350px;
+   
+    width: 380px;
+    border-radius: 8px;
+    border: 3px dodgerblue solid;
+}
+
+/*primeira seção*/
+/*seção 2*/
+
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    background-color: #28284fa3;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5px;
+}
+.suporte, .web{
+    margin-left: 100px;
+    
+}
+li{
+    list-style: none;
+}
+.sub-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#habilidades{
+    font-size: 40px;
+   
+   background-color: #28284fa3;
+   width: 100vw;
+   text-align: center;
+  margin-top: 50px;
+   margin-bottom: -50px;
+   padding: 1rem;
+}
+/*fim da seção 2*/
+/*seção 3*/
+.totvs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0;
+   
+   
+}
+.container-tcc{
+   width: 40vw;
+   height: 20vh;
+    margin-left: -140px;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+.foto-turma{
+    height: 440px;
+    width: 600px; 
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+    margin-left: 90px;
+   
+}
+.image-tcc{
+    padding: 1.5rem;
+}
+.button-tcc{
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    padding: 0.6rem;
+    background-color: dodgerblue;
+    border-radius: 15px;
+   
+}
+.button-tcc:hover{
+    background-color: transparent;
+    border: solid 3px dodgerblue;
+    color: dodgerblue;
+    transition: 1s;
+}
+/*fim da seção 3*/
+
+/*css footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #040435;
+   width:105vw;
+   padding: 1.5rem;
+}
+.footer-title{
+    background-color: #040435;
+    width:105vw;
+    margin-bottom: -10px;
+    text-align: center;
+    font-size: 40px;
+}
+.center{
+   text-align: justify;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.icon{
+    
+    height:50px;
+    width:50px;
+    margin: 10px;
+    background-color: #040435;
+}
+/*fim do css footer*/
