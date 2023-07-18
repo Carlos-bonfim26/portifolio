@@ -37,6 +37,10 @@ margin: 0;
     margin: 0.7rem;
   
 }
+.nav-link:hover{
+    border-bottom: solid 0.2rem dodgerblue;
+    transition: 1s;
+}
 .nav-link:hover, .nav-item:hover, a:hover{
     color: dodgerblue;
    
