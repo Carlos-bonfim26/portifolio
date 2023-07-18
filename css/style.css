@@ -343,5 +343,12 @@ p, li{
     width: 16.5rem;
     height: 13.5rem;
    }
-
+   .dropdown-item{
+    font-size: 0.8rem;
+    margin-left: 24rem;
+   }
+   .nav-item, .nav-item{
+    margin-left: 3rem;
+  
+   }
 }
