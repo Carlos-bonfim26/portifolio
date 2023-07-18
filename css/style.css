@@ -232,16 +232,29 @@ footer{
 @media(max-width:991px){
     .navbar-toggler-icon{
         filter: saturate(100);
-        
+    border: none;
+       width: 3rem;
+        margin-top: -7rem;
     }
-   .header, nav, .container, .navbar-nav, .navbar, .navbar-brand, .navbar-expand-lg, .bg-body-tertiary, #navbarNavDropdown, .navbar-collapse, .collapse{
-    width: 100vw;
- background-color: #040435;
-   }
+   
+  .dropdown-item{
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0;
+    margin-left: 2.5rem;
+  }
    .nav-link, .nav-item{
     font-size: 1rem;
-    background-color: transparent;
+    background-color: #040435;
+   
+    margin: 0rem;
+    color: white;
+
+   
    }
+  .logotipo{
+    display: none;
+  }
 }
 @media (max-width:700px){
     .container-sobre, .habilidades, .container-habilidades,.suporte, .web, .totvs, #dw{
@@ -296,6 +309,39 @@ p, li{
     font-size: 0.8rem;
     margin-left: -4rem;
 }
-
+}
+@media (max-width:450px){
+   .container-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-left: -0.5rem;
+   } 
+   .perfil{
+    width: 14rem;
+    height: 14rem;
+   }
+   .habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: justify;
+   }
+   #habilidades{
+    font-size: 1.5rem;
+   }
+   h3{
+    margin-left: -10rem;
+    font-size: 1.2rem;
+    
+   }
+   ul{
+    width: 100%;
+    margin: 0;
+   }
+   .foto-turma{
+    width: 16.5rem;
+    height: 13.5rem;
+   }
 
 }
