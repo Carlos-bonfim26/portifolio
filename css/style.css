@@ -355,4 +355,10 @@ p, li{
     margin-left: 3rem;
   
    }
+   li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-break: break-all;
+  }
 }
